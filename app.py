@@ -93,6 +93,10 @@ def equal():
         clearDisplay()
         display.insert(0, 'Error')
 
+    except ZeroDivisionError:
+        clearDisplay()
+        display.insert(0, 'Error')
+
 
 # Numeric buttons
 tk.Button(
